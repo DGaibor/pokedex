@@ -1,0 +1,23 @@
+.card-name{
+    display: flex;
+    background-color: #ffffff;
+    
+
+    .column-icon{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .column-data{
+        width: 75%;
+        .name{
+            background: var(--poke-red);
+            color: white;
+            padding: 10px;
+        }
+        .number{
+            padding: 10px;
+        }
+    }
+}

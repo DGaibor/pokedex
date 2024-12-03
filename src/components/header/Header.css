@@ -1,0 +1,18 @@
+header{
+    background-color: var(--poke-red);
+    padding: 10px;
+    border: 4px solid #000000;
+    box-shadow: inset 11px -8px 0 0 #800000, -4px -4px 0 0 #800000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    h1{
+        margin: 0;
+        padding: 20px;
+        font-size: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}

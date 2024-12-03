@@ -1,0 +1,29 @@
+.stat{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+    }
+    .name{
+        width: 30%;
+        @media screen and (max-width: 650px) {
+            width: 100%;
+        }
+    }
+    .value{
+        width: 70%;
+        border: 1px solid black;
+        @media screen and (max-width: 650px) {
+            width: 100%;
+        }
+        .bar{
+            padding: 5px;
+            color: black;
+            background: #d3d3d3 !important;
+        }
+        
+
+    }
+}

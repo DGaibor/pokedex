@@ -1,0 +1,9 @@
+.card-title{
+    background: var(--poke-red);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.card-body{
+    padding: 10px;
+}
